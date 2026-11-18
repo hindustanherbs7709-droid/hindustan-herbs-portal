@@ -212,6 +212,15 @@ const [user, setUser] = useState(null);
         <div className="footer-links"><a href="#about">About</a><a href="#products">Products</a><a href="#requirement">Buyer Enquiry</a><a href="#contact">Contact</a></div>
         <small>© 2026 Hindustan Herbs. All rights reserved.</small>
       </footer>
+            {authOpen && (
+        <Auth
+          onClose={() => setAuthOpen(false)}
+          onSuccess={(loggedInUser) => {
+            setUser(loggedInUser);
+            setAuthOpen(false);
+          }}
+        />
+      )}
     </div>
   );
 }
