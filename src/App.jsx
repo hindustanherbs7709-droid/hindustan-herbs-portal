@@ -75,7 +75,9 @@ const [user, setUser] = useState(null);
           <a href="#why-us">Why Us</a>
           <a href="#contact">Contact</a>
         </nav>
-
+<button className="nav-cta" onClick={() => setAuthOpen(true)}>
+  {user ? "My Account" : "Customer Login"}
+</button>
         <div className="nav-actions">
           <button className="language" onClick={() => setLanguage(hindi ? "EN" : "HI")}>
             <Globe size={17} /> {hindi ? "English" : "हिंदी"}
