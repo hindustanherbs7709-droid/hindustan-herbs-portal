@@ -1,5 +1,6 @@
 
 import React, { useState } from "react";
+import Auth from "./Auth";
 import {
   Leaf, Menu, X, ArrowRight, Phone, Mail, Globe,
   ShieldCheck, Truck, Sprout, Package, CheckCircle2,
@@ -36,6 +37,8 @@ const categories = [
 export default function App() {
   const [language, setLanguage] = useState("EN");
   const [menuOpen, setMenuOpen] = useState(false);
+  const [authOpen, setAuthOpen] = useState(false);
+const [user, setUser] = useState(null);
   const hindi = language === "HI";
 
   const submitRequirement = (e) => {
