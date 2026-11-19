@@ -179,4 +179,4 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
   .contact-section { padding: 65px 6%; }
   .contact-actions { flex-direction: column; align-items: center; gap: 17px; }
   .footer-links { flex-wrap: wrap; gap: 15px; }
-}
+
