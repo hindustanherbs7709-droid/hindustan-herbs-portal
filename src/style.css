@@ -132,7 +132,6 @@ h1, h2, h3 { font-family: 'Playfair Display', serif; }
   .product-grid { grid-template-columns: repeat(2,1fr); }
   .trust-strip { grid-template-columns: repeat(2,1fr); }
   .about-section, .requirement-section { gap: 40px; }
-}
 @media(max-width:720px) {
   .topbar { justify-content: center; flex-wrap: wrap; font-size: 10px; }
   .topbar span:nth-child(2) { display: none; }
