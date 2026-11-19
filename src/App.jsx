@@ -114,7 +114,7 @@ const [user, setUser] = useState(null);
 
         <section className="section about-section" id="about">
           <div className="about-image">
-            <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?auto=format&fit=crop&w=1000&q=85" alt="Natural green herbs" />
+            <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=90" alt="Fresh green botanical herbs" />
             <div className="experience-card"><b>Since 2021</b><span>Growing with nature</span></div>
           </div>
           <div className="about-copy">
