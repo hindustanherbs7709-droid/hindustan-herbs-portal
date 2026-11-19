@@ -12,7 +12,7 @@ const categories = [
     name: "Roots & Rhizomes",
     hindi: "जड़ें और कंद",
     items: "Ashwagandha, Shatavari, Mulethi, Giloy",
-    image: "https://images.unsplash.com/photo-1603909223429-69bb7101f420?auto=format&fit=crop&w=800&q=85"
+   image: "https://images.unsplash.com/photo-1615485500704-8e990f9900f2?auto=format&fit=crop&w=800&q=90"
   },
   {
     name: "Seeds & Spices",
